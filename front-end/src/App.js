@@ -3,9 +3,10 @@ import { Route, Switch } from "react-router-dom";
 import Layout from "./layout/Layout";
 
 /**
- * Defines the root application component.
+ * Defines root application component
  * @returns {JSX.Element}
  */
+
 function App() {
   return (
     <Switch>
