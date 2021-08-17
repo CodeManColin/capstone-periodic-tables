@@ -3,11 +3,11 @@
 Created by Colin Lawrence 
 (Web Developer based in Los Angeles)
 
-> The Periodic Tables application software is a reservation system for fine dining restaurants designed for managing
-> multiple daily, and future reservations, and seating parties accordingly. 
+> The Periodic Tables application software is a reservation system for fine dining restaurants designed for managing multiple daily and future reservations, and seating parties accordingly. 
 > The software is designed for restaurant personnel use only. At this point, customers will not access the system online.
 
 <hr>
+
 
 ## Key Features
 
@@ -19,6 +19,7 @@ Created by Colin Lawrence
 * Cancel a reservation
 
 <hr>
+
 
 ## Tech
 
@@ -35,16 +36,24 @@ Created by Colin Lawrence
 * PostgreSQL
 * DBeaver
 
+<hr>
+
+
 ## Screenshots
+### Dashboard:
+![Dashboard Page](/github-images/screenshots/dashboard-screenshot.png)
+### Search (before):
+![Search Page](/github-images/screenshots/search-before-screenshot.png)
+### Search (after):
+![Search Page](/github-images/screenshots/search-after-screenshot.png)
+### New Reservation:
+![New Reservation Page](/github-images/screenshots/new-reservation-screenshot.png)
+### New Table:
+![New Table Page](/github-images/screenshots/new-table-screenshot.png)
+### Choose Table:
+![Choose Table Page](/github-images/screenshots/choose-table-screenshot.png)
 
-
-## Wireframes
-<!-- (Example) Landing Page
-:-------------------------:
-![Landing Page](/github-images/wireframes/landing-page-wireframe.png)
-Register Page
-![Register Page](/github-images/wireframes/register-page-wireframe.png) -->
-
+<hr>
 
 
 ## Front-end Structure - React Components Map
@@ -62,14 +71,7 @@ Register Page
                 * __Search.js__ (stateful)
                 * __NotFound.js__ (stateless)
 
-
-
-## Back-end Structure - Business Objects
-* (Example) Users (database table)
-    * id (auto-generated)
-    * username (email validation)
-    * password (at least 8 chars, at least one alpha and a special character validation)
-
+<hr>
 
 
 ## API Documentation
@@ -86,59 +88,13 @@ Register Page
 | `/tables/:tableId/seat`                | PUT    | Assigns a reservation to a table.                                                                     |
 | `/tables/:tableId/seat`                | DELETE | Frees a table for future reservations
 
+<hr>
 
-
-
-
-
-
-API Documentation
-#### API Overview
-```text
-    /api
-    .
-    ├── /auth
-    │   └── POST
-    │       ├── /login
-    ├── /users
-    │   └── POST
-    │       └── /
-```
-
-##### POST `/api/auth/login`
-```js
-    // req.body
-    {
-        "user_name": "demo@gmail.com",
-        "password": "Password1"
-    }
-
-    // res.body
-    {
-    "authToken": String,
-        "userId": 1
-    }
-```
-
-##### POST `/api/users/`
-```js
-    // req.body
-    {
-        "user_name": "demo@gmail.com",
-        "password": "123456"
-    }
-
-
-    // res.body
-    {
-        "id": 1,
-        "user_name": "demo@gmail.com"
-    }
-```
 
 ## Development Roadmap
 This is v1.0 of the app, but future enhancements are expected to include:
 * Added styling
+* More options clearing table IDs from dashboard
 * Customer access to online version
 
 
