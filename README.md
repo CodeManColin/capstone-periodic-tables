@@ -42,14 +42,29 @@ Created by Colin Lawrence
 ## Screenshots
 ### Dashboard:
 ![Dashboard Page](/github-images/screenshots/dashboard-screenshot.png)
+
+<hr>
+
 ### Search (before):
 ![Search Page](/github-images/screenshots/search-before-screenshot.png)
+
+<hr>
+
 ### Search (after):
 ![Search Page](/github-images/screenshots/search-after-screenshot.png)
+
+<hr>
+
 ### New Reservation:
 ![New Reservation Page](/github-images/screenshots/new-reservation-screenshot.png)
+
+<hr>
+
 ### New Table:
 ![New Table Page](/github-images/screenshots/new-table-screenshot.png)
+
+<hr>
+
 ### Choose Table:
 ![Choose Table Page](/github-images/screenshots/choose-table-screenshot.png)
 
